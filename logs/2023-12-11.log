@@ -1,0 +1,12 @@
+
+Started GET /products for :: ::ffff:127.0.0.1 at Mon Dec 11 2023 20:21:55 GMT-0300 (Chile Summer Time)
+  Parameters in body: {"id":4,"nombre":"lavadora","price":60000}
+Completed: 200 message:  Time response: 7 ms Request ID: [595391d3-7f0f-453e-a376-962c34261d74]
+
+Started POST /products for :: ::ffff:127.0.0.1 at Mon Dec 11 2023 20:23:04 GMT-0300 (Chile Summer Time)
+  Parameters in body: {"id":5,"nombre":"plancha","price":12000}
+Completed: 201 message:  Time response: 3 ms Request ID: [2f8e471a-e532-42a5-89e6-2e2d802aef8c]
+
+Started POST /product for :: ::ffff:127.0.0.1 at Mon Dec 11 2023 20:23:11 GMT-0300 (Chile Summer Time)
+  Parameters in body: {"id":5,"nombre":"plancha","price":12000}
+Completed: 404 message:  Time response: 3 ms Request ID: [088b6236-f58f-44a0-9427-c1b8943eec96]
